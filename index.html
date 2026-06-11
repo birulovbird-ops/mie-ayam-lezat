@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Mie Ayam Lezat - UMKM kuliner dengan resep turun temurun. Menu: Mie Ayam Polos, Mie Ayam Bakso, Bakso Urat.">
+  <meta name="keywords" content="mie ayam polos, mie ayam bakso, bakso urat, umkm kuliner, mie ayam lezat">
+  <meta name="author" content="Mie Ayam Lezat">
+  <!-- Open Graph / SEO -->
+  <meta property="og:title" content="Mie Ayam Lezat - UMKM Kuliner Legendaris">
+  <meta property="og:description" content="Mie ayam special + bakso urat & bakso. Pesan online!">
+  <meta property="og:image" content="https://placehold.co/1200x630/FF8C00/white?text=Mie+Ayam+Lezat">
+  <meta property="og:url" content="https://mieayamlezat.netlify.app">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23FF8C00'/%3E%3Ctext x='50' y='70' font-size='50' text-anchor='middle' fill='white'%3E🍜%3C/text%3E%3C/svg%3E">
+  <title>Mie Ayam Lezat </title>
+  <!-- CSS External -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts & AOS & FontAwesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- ==================== NAVIGATION ==================== -->
+<nav class="navbar">
+  <div class="logo"> Mie<span>Ayam</span> Lezat</div>
+  <div class="nav-links">
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang</a>
+    <a href="#features">Keunggulan</a>
+    <a href="#services">Menu</a>
+    <a href="#testimonials">Testimoni</a>
+    <a href="#gallery">Galeri</a>
+    <a href="#contact">Kontak</a>
+    <button class="dark-mode-toggle" id="darkModeToggle"><i class="fas fa-moon"></i> Mode Gelap</button>
+    <a href="#contact" class="btn-cta-nav">Pesan Sekarang</a>
+  </div>
+</nav>
+
+<main>
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-right">
+      <h1>Mie Ayam <span class="highlight">Lezat & Nikmat</span><br>Menu: <span class="highlight">Polos • Bakso • Urat</span></h1>
+      <p>Resep turun temurun, kuah gurih, mie kenyal, dan bakso urat pilihan. Dijamin nagih!</p>
+      <div class="btn-group">
+        <button class="btn-primary" onclick="location.href='#contact'">Pesan Sekarang</button>
+        <button class="btn-outline" onclick="location.href='#services'">Lihat Menu</button>
+      </div>
+    </div>
+    <div class="hero-image" data-aos="fade-left">
+      <img src="img/logo.jpg" alt="Mie Ayam Lezat" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="container">
+    <div class="section-title" data-aos="fade-up">Tentang <span>Kami</span></div>
+    <div data-aos="fade-up" style="text-align:center; max-width:800px; margin:0 auto;">
+      <p style="font-size:1.2rem; line-height:1.6;">Mie Ayam Lezat hadir sejak 2015 sebagai UMKM kuliner yang mengutamakan cita rasa otentik dan bahan berkualitas. Kami menyajikan <strong>Mie Ayam Polos</strong>, <strong>Mie Ayam Bakso</strong>, dan <strong>Bakso Urat</strong> dengan bumbu rempah pilihan. Visi kami: menjadi langganan keluarga Indonesia dengan harga terjangkau dan pelayanan ramah.</p>
+      <div style="margin-top: 32px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <div><i class="fas fa-utensils" style="color:#ff8c00; font-size: 2rem;"></i><p><strong>Resep Turun Temurun</strong></p></div>
+        <div><i class="fas fa-leaf" style="color:#ff8c00; font-size: 2rem;"></i><p><strong>Bahan Segar</strong></p></div>
+        <div><i class="fas fa-smile" style="color:#ff8c00; font-size: 2rem;"></i><p><strong>100% Halal</strong></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURES SECTION ==================== -->
+  <section id="features" class="container">
+    <div class="section-title" data-aos="fade-up">Ke<span>unggulan</span> Kami</div>
+    <div class="features-grid">
+      <div class="feature-card" data-aos="zoom-in"><i class="fas fa-rocket"></i><h3>Cepat Saji</h3><p>Pesanan siap dalam 10-15 menit, tanpa mengurangi kualitas.</p></div>
+      <div class="feature-card" data-aos="zoom-in" data-aos-delay="100"><i class="fas fa-shield-alt"></i><h3>Higienis & Aman</h3><p>Proses masak bersih, bahan tanpa pengawet.</p></div>
+      <div class="feature-card" data-aos="zoom-in" data-aos-delay="200"><i class="fas fa-hand-holding-heart"></i><h3>Harga Terjangkau</h3><p>Mulai dari Rp12.000, cocok semua kalangan.</p></div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES / MENU SECTION (3 item sesuai permintaan) ==================== -->
+  <section id="services" class="container">
+    <div class="section-title" data-aos="fade-up">Menu <span>Spesial</span> Kami</div>
+    <div class="services-grid">
+      <!-- Menu 1: Mie Ayam Polos -->
+      <div class="service-card" data-aos="flip-left">
+        <img src="img/Mie-ayam-polos.jpg" alt="Mie Ayam Polos" loading="lazy">
+        <div class="service-info"><h3> Mie Ayam Polos</h3><p>Mie kenyal dengan topping ayam cincang, sawi, dan kuah gurih.</p><div class="price">Rp12.000</div></div>
+      </div>
+      <!-- Menu 2: Mie Ayam Bakso -->
+      <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+        <img src="img/Mie-ayam-bakso.jpg" alt="Mie Ayam Bakso" loading="lazy">
+        <div class="service-info"><h3> Mie Ayam + Bakso</h3><p>Mie ayam polos + 3 butir bakso sapi lembut.</p><div class="price">Rp18.000</div></div>
+      </div>
+      <!-- Menu 3: Bakso Urat -->
+      <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+        <img src="img/Bakso-urat.jpg" alt="Bakso Urat" loading="lazy">
+        <div class="service-info"><h3> Bakso Urat Spesial</h3><p>Bakso urat kenyal, tekstur khas, kuah kaldu sapi + mie & pangsit.</p><div class="price">Rp22.000</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section id="testimonials" class="container">
+    <div class="section-title" data-aos="fade-up">Apa Kata <span>Pelanggan</span></div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card" data-aos="fade-up"><img src="img/Dhika.jpg" alt="pelanggan"><p>"Mie ayam polosnya enak banget, kuahnya khas. Bakso urat juara!"</p><h4>- Dhika</h4><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i></div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100"><img src="img/pikri.jpeg" alt="pelanggan"><p>"Delivery cepat, mie ayam bakso porsinya besar. Top markotop!"</p><h4>- Pikri</h4><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star" style="color:#ff8c00;"></i><i class="fas fa-star-half-alt" style="color:#ff8c00;"></i></div>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY SECTION (min 6 gambar) ==================== -->
+  <section id="gallery" class="container">
+    <div class="section-title" data-aos="fade-up">Galeri <span>Kuliner</span></div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="img/1.jpg" alt="Mie Ayam" loading="lazy"></div>
+      <div class="gallery-item"><img src="img/2.jpg" alt="Mie Bakso" loading="lazy"></div>
+      <div class="gallery-item"><img src="img/3.jpg" alt="Bakso Urat" loading="lazy"></div>
+      <div class="gallery-item"><img src="img/4.jpg" alt="Suasana" loading="lazy"></div>
+      <div class="gallery-item"><img src="img/5.jpg" alt="Pelanggan" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION dengan validasi JS ==================== -->
+  <section id="contact" class="container">
+    <div class="section-title" data-aos="fade-up">Hubungi <span>Kami</span></div>
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Nama Lengkap" required>
+          <div class="error-msg" id="nameError"></div>
+          <input type="email" id="email" placeholder="Email" required>
+          <div class="error-msg" id="emailError"></div>
+          <textarea id="message" rows="4" placeholder="Pesan / Pesanan Anda (contoh: Mie Ayam Bakso 2 porsi)" required></textarea>
+          <div class="error-msg" id="msgError"></div>
+          <button type="submit" class="btn-primary" style="width:100%">Kirim Pesanan</button>
+        </form>
+        <p id="formSuccess" style="color:green; margin-top:12px; text-align:center;"></p>
+      </div>
+      <div class="contact-info">
+        <h3><i class="fas fa-map-marker-alt"></i> Alamat</h3>
+        <p>Jl. Kenangan No. 45, Yogyakarta</p>
+        <h3><i class="fas fa-phone-alt"></i> Telepon</h3>
+        <p>+62 812 3456 7890</p>
+        <h3><i class="fas fa-clock"></i> Jam Buka</h3>
+        <p>10.00 - 21.00 (Setiap Hari)</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="footer-grid container">
+    <div><h3>Mie Ayam Lezat</h3><p>Rasa Rumahan, Cinta Keluarga</p></div>
+    <div class="social-icons"><h4>Ikuti Kami</h4><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div>
+    <div><p><i class="fas fa-envelope"></i> halo@mieayamlezat.com</p><p>© 2025 Mie Ayam Lezat. Semua hak dilindungi.</p></div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<div class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></div>
+
+<!-- JS External -->
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init({ duration: 800, once: true }); </script>
+</body>
+</html>
